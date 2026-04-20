@@ -1,0 +1,94 @@
+D:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\SMS.exe.config
+D:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\SMS.exe
+D:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\SMS.pdb
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.Dashboard.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.cache
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.exe
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.pdb
+D:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\Custom Picture Box.dll
+D:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\Custom Picture Box.pdb
+D:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\Custom Picture Box.dll.config
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.g.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.csproj.Up2Date
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.AdmissionUC.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.Student.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.ToasterMsg.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.StudentRectify.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.StudentTerminate.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.L_or_R.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.Register.resources
+D:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.BkIssue.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\SMS.exe.config
+F:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\SMS.exe
+F:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\SMS.pdb
+F:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\Custom Picture Box.dll
+F:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\Custom Picture Box.pdb
+F:\Visual Studio Projects\C#.NET\SMS\SMS\bin\Debug\Custom Picture Box.dll.config
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.csproj.AssemblyReference.cache
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.g.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.AdmissionUC.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.BkIssue.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.Dashboard.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.L_or_R.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.Properties.Resources.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.Register.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.Student.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.StudentRectify.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.StudentTerminate.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.ToasterMsg.resources
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.csproj.GenerateResource.cache
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.csproj.Up2Date
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.exe
+F:\Visual Studio Projects\C#.NET\SMS\SMS\obj\Debug\SMS.pdb
+D:\github\Student_Management_System\SMS\bin\Debug\SMS.exe.config
+D:\github\Student_Management_System\SMS\bin\Debug\SMS.exe
+D:\github\Student_Management_System\SMS\bin\Debug\SMS.pdb
+D:\github\Student_Management_System\SMS\bin\Debug\Custom Picture Box.pdb
+D:\github\Student_Management_System\SMS\bin\Debug\Custom Picture Box.dll.config
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.csproj.AssemblyReference.cache
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.exe.config
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.g.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.AdmissionUC.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.BkIssue.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.Dashboard.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.L_or_R.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.Properties.Resources.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.Register.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.Student.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.StudentRectify.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.StudentTerminate.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.ToasterMsg.resources
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.csproj.GenerateResource.cache
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.csproj.Up2Date
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.exe
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.pdb
+D:\github\Student_Management_System\SMS\obj\Debug\SMS.BkReturn.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\SMS.exe.config
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\SMS.exe
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\SMS.pdb
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\Custom Picture Box.pdb
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\Custom Picture Box.dll.config
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.csproj.AssemblyReference.cache
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.exe.config
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.g.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.AdmissionUC.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.BkIssue.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.BkReturn.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.Dashboard.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.L_or_R.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.Properties.Resources.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.Register.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.Student.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.StudentRectify.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.StudentTerminate.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.ToasterMsg.resources
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.csproj.GenerateResource.cache
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.csproj.CoreCompileInputs.cache
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.csproj.Up2Date
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.exe
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.pdb
