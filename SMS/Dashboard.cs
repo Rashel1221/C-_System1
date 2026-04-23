@@ -79,9 +79,9 @@ namespace SMS
             DP_cpb.Image = Image.FromStream(ms);
 
             // Rounded Corners ---------------------------------
-            var attribute = DWMWINDOWATTRIBUTE.DWMWA_WINDOW_CORNER_PREFERENCE;
+            /*var attribute = DWMWINDOWATTRIBUTE.DWMWA_WINDOW_CORNER_PREFERENCE;
             var preference = DWM_WINDOW_CORNER_PREFERENCE.DWMWCP_ROUND;
-            DwmSetWindowAttribute(this.Handle, attribute, ref preference, sizeof(uint));
+            DwmSetWindowAttribute(this.Handle, attribute, ref preference, sizeof(uint));*/
             // --------------------------------------------------
         }
         private void Dashboard_Load(object sender, EventArgs e)

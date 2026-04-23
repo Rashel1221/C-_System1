@@ -3,7 +3,7 @@
 -- Baseline schema inferred from SchoolDataSet.xsd (typed dataset)
 -- NOTE: Adjust data types & nullability if they differ in the actual database.
 -- ============================================================================
-USE [School];
+USE [StudentDB];
 GO
 
 SET ANSI_NULLS ON;

@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\l or r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\l or r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|c:\\users\\eralyn dapula\\documents\\.rashel_d._bsinfo\\finalproject\\2\\student_management_system-main\\sms\\l or r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\l or r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|c:\\users\\eralyn dapula\\documents\\.rashel_d._bsinfo\\finalproject\\2\\student_management_system-main\\sms\\wcontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\wcontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\wcontrols.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\studentrectify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\studentrectify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|c:\\users\\eralyn dapula\\documents\\.rashel_d._bsinfo\\finalproject\\2\\student_management_system-main\\sms\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\databasesetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|c:\\users\\eralyn dapula\\documents\\.rashel_d._bsinfo\\finalproject\\2\\student_management_system-main\\sms\\schooldataset.xsd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\schooldataset.xsd||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|c:\\users\\eralyn dapula\\documents\\.rashel_d._bsinfo\\finalproject\\2\\student_management_system-main\\sms\\schooldataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\schooldataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|c:\\users\\eralyn dapula\\documents\\.rashel_d._bsinfo\\finalproject\\2\\student_management_system-main\\sms\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|c:\\users\\eralyn dapula\\documents\\.rashel_d._bsinfo\\finalproject\\2\\student_management_system-main\\sms\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|c:\\users\\eralyn dapula\\documents\\.rashel_d._bsinfo\\finalproject\\2\\student_management_system-main\\sms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\bkreturn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -35,12 +47,24 @@
       "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\studentterminate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\l or r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\l or r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\l or r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\l or r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\studentrectify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\studentrectify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\sms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{17E63453-A755-4830-A08F-7E36E86716F2}|SMS\\SMS.csproj|solutionrelative:sms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,10 +78,6 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -66,32 +86,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "L or R.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\L or R.cs",
-              "RelativeDocumentMoniker": "SMS\\L or R.cs",
-              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\L or R.cs [Design]",
-              "RelativeToolTip": "SMS\\L or R.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T15:37:59.114Z",
-              "EditorCaption": " [Design]"
+              "DocumentIndex": 5,
+              "Title": "SchoolDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\SchoolDataSet.xsd",
+              "RelativeDocumentMoniker": "SMS\\SchoolDataSet.xsd",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\SchoolDataSet.xsd",
+              "RelativeToolTip": "SMS\\SchoolDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-04-23T12:21:57.366Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "SMS\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Properties\\Settings.settings",
+              "RelativeToolTip": "SMS\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-04-23T12:20:45.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Register.cs",
+              "RelativeDocumentMoniker": "SMS\\Register.cs",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Register.cs",
+              "RelativeToolTip": "SMS\\Register.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAqwJkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:02:15.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\App.config",
+              "RelativeDocumentMoniker": "SMS\\App.config",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\App.config",
+              "RelativeToolTip": "SMS\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-20T20:07:55.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WControls.cs",
               "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\WControls.cs",
               "RelativeDocumentMoniker": "SMS\\WControls.cs",
               "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\WControls.cs",
               "RelativeToolTip": "SMS\\WControls.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowEUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAawDkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T13:39:17.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "L or R.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\L or R.cs",
+              "RelativeDocumentMoniker": "SMS\\L or R.cs",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\L or R.cs [Design]",
+              "RelativeToolTip": "SMS\\L or R.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:37:59.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "StudentTerminate.cs",
               "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\StudentTerminate.cs",
               "RelativeDocumentMoniker": "SMS\\StudentTerminate.cs",
@@ -99,24 +168,78 @@
               "RelativeToolTip": "SMS\\StudentTerminate.cs",
               "ViewState": "AgIAAI0AAAAAAAAAAAAowI0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T09:17:12.56Z",
+              "WhenOpened": "2025-10-04T09:17:12.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Dashboard.cs",
+              "RelativeDocumentMoniker": "SMS\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Dashboard.cs*",
+              "RelativeToolTip": "SMS\\Dashboard.cs*",
+              "ViewState": "AgIAAEUAAAAAAAAAAIAxwFMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T03:45:32.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "SMS\\Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "SMS\\Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T12:27:54.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SchoolDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\SchoolDataSet.xsd",
+              "RelativeDocumentMoniker": "SMS\\SchoolDataSet.xsd",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\SchoolDataSet.xsd",
+              "RelativeToolTip": "SMS\\SchoolDataSet.xsd",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAH0AAAAgAgAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2026-04-23T12:31:08.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseSetup.cs",
+              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\DatabaseSetup.cs",
+              "RelativeDocumentMoniker": "SMS\\DatabaseSetup.cs",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\DatabaseSetup.cs",
+              "RelativeToolTip": "SMS\\DatabaseSetup.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T12:37:44.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BkReturn.cs [Design]",
               "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\BkReturn.cs",
               "RelativeDocumentMoniker": "SMS\\BkReturn.cs",
               "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\BkReturn.cs [Design]",
               "RelativeToolTip": "SMS\\BkReturn.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T04:50:33.317Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-04T04:50:33.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "StudentRectify.cs",
               "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\StudentRectify.cs",
               "RelativeDocumentMoniker": "SMS\\StudentRectify.cs",
@@ -124,12 +247,11 @@
               "RelativeToolTip": "SMS\\StudentRectify.cs",
               "ViewState": "AgIAAJwAAAAAAAAAAAAmwKQAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T15:10:23.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T15:10:23.669Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "L or R.cs",
               "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\L or R.cs",
               "RelativeDocumentMoniker": "SMS\\L or R.cs",
@@ -137,25 +259,11 @@
               "RelativeToolTip": "SMS\\L or R.cs",
               "ViewState": "AgIAAI8AAAAAAAAAAAAmwKEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:38:35.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T13:38:35.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Register.cs",
-              "RelativeDocumentMoniker": "SMS\\Register.cs",
-              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Register.cs",
-              "RelativeToolTip": "SMS\\Register.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAcwKAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T14:02:15.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Program.cs",
               "RelativeDocumentMoniker": "SMS\\Program.cs",
@@ -163,30 +271,19 @@
               "RelativeToolTip": "SMS\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T13:37:12.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T13:37:12.527Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Dashboard.cs",
-              "RelativeDocumentMoniker": "SMS\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Dashboard.cs",
-              "RelativeToolTip": "SMS\\Dashboard.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAA9wF0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T03:45:32.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Dashboard.cs",
               "RelativeDocumentMoniker": "SMS\\Dashboard.cs",
-              "ToolTip": "D:\\github\\Student_Management_System\\SMS\\Dashboard.cs [Design]",
+              "ToolTip": "C:\\Users\\eralyn dapula\\Documents\\.RASHEL_D._BSINFO\\FINALPROJECT\\2\\Student_Management_System-main\\SMS\\Dashboard.cs [Design]*",
+              "RelativeToolTip": "SMS\\Dashboard.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T04:55:28.52Z"
+              "WhenOpened": "2024-05-24T04:55:28.52Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

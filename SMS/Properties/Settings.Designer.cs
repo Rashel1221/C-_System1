@@ -26,8 +26,8 @@ namespace SMS.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=RABINDRA\\SQLEXPRESS;Initial Catalog=School;Integrated Security=True;T" +
-            "rustServerCertificate=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=StudentDB;Integrated Security=True;Trust" +
+            "ServerCertificate=True")]
         public string SchoolConnectionString {
             get {
                 return ((string)(this["SchoolConnectionString"]));

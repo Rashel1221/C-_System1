@@ -1,6 +1,6 @@
 # Database Schema Scripts
 
-These scripts provide a human‑readable, versioned representation of the current **School** database structure so contributors don’t have to rely only on the binary `.bacpac` file.
+These scripts provide a human‑readable, versioned representation of the current **StudentDB** database structure so contributors don’t have to rely only on the binary `.bacpac` file.
 
 > Goal: Establish a baseline. Future improvements can refine data types, add migrations, and automate validation in CI.
 
@@ -13,19 +13,19 @@ These scripts provide a human‑readable, versioned representation of the curren
 | 10 (optional) | `Seed/10-minimal-lookup.sql` | Reserved for minimal seed data if ever required |
 
 ## How to Use (Manual)
-1. Create (or ensure) an empty database named `School` in SQL Server:
+1. Create (or ensure) an empty database named `StudentDB` in SQL Server:
    ```sql
-   IF DB_ID('School') IS NULL
-       CREATE DATABASE School;
+   IF DB_ID('StudentDB') IS NULL
+       CREATE DATABASE StudentDB;
    GO
    ```
-2. Open the `School` database context in SSMS.
+2. Open the `StudentDB` database context in SSMS.
 3. Run: `01-tables.sql`.
 4. Run: `02-constraints-indexes.sql`.
 5. (If present) Run any seed scripts under `Seed/`.
 
 ## Important Notes / Assumptions
-* Column definitions here were inferred from the typed dataset (`SchoolDataSet.xsd`). If the live database uses different lengths, nullability rules, or data types (e.g., numeric / date types), please adjust and submit a PR.
+* Column definitions here were inferred from the typed dataset (`StudentDBDataSet.xsd`). If the live database uses different lengths, nullability rules, or data types (e.g., numeric / date types), please adjust and submit a PR.
 * Primary keys & foreign keys were chosen conservatively; update them if the actual schema differs. In particular, if surrogate identity keys exist in the live DB, replace the inferred composite or natural keys here.
 * Text fields are set to `NVARCHAR(255)` as a safe placeholder based on the dataset’s `maxLength` attributes.
 * Binary image fields (`Photo`, `DP`) are scripted as `IMAGE` to mirror legacy usage; consider migrating to `VARBINARY(MAX)` in a future modernization issue.
@@ -47,7 +47,7 @@ When you add or modify a table/column:
 | 5 | Normalize data types (use `DATE`, `INT`, etc., instead of generic NVARCHAR) |
 
 ## Verification Checklist (For Reviewers)
-- [ ] Scripts run cleanly on empty `School` DB.
+- [ ] Scripts run cleanly on empty `StudentDB` DB.
 - [ ] Tables & columns match current application expectations (typed dataset & queries).
 - [ ] Keys/relationships reflect intent (update if actual DB differs).
 

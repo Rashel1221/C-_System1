@@ -71,10 +71,7 @@ D:\github\Student_Management_System\SMS\obj\Debug\SMS.BkReturn.resources
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\SMS.exe.config
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\SMS.exe
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\SMS.pdb
-C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\Custom Picture Box.pdb
-C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\bin\Debug\Custom Picture Box.dll.config
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.csproj.AssemblyReference.cache
-C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.exe.config
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.g.resources
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.AdmissionUC.resources
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.BkIssue.resources
@@ -92,3 +89,4 @@ C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Manage
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.csproj.Up2Date
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.exe
 C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.pdb
+C:\Users\eralyn dapula\Documents\.RASHEL_D._BSINFO\FINALPROJECT\2\Student_Management_System-main\SMS\obj\Debug\SMS.exe.config

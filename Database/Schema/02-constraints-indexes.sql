@@ -3,7 +3,7 @@
 -- Adds primary keys / foreign keys inferred from dataset usage.
 -- Adjust if actual database uses different keys.
 -- ============================================================================
-USE [School];
+USE [StudentDB];
 GO
 
 -- PRIMARY KEYS ----------------------------------------------------------------
