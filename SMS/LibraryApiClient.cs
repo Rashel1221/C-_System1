@@ -8,38 +8,76 @@ namespace SMS
     public class LibraryApiClient
     {
         private readonly HttpClient client = new HttpClient();
+        private readonly string baseUrl
 
-        private string baseUrl = "http://localhost/Library-Management-System-master/library/api/index.php";
+        public LibraryApiClient()
+        {
+            baseUrl = ConfigurationManager.AppSettings["LibraryApiBaseUrl"];
+            if (string.IsNullOrWhiteSpace(baseUrl))
+            {
+                baseUrl = "http://localhost/Library-Management-System-master/library/api/index.php";
+            }
+            baseUrl = baseUrl.TrimEnd('/');
+        }
 
         public async Task<string> SyncStudent(string id, string name, string email, string mobile)
         {
-            var json = $@"{{
-                ""studentId"": ""{id}"",
-                ""fullName"": ""{name}"",
-                ""email"": ""{email}"",
-                ""mobile"": ""{mobile}"",
-                ""password"": ""123456""
-            }}";
-
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            var response = await client.PostAsync(baseUrl + "/students/sync", content);
-
-            return await response.Content.ReadAsStringAsync();
+            string json = "{" +
+                "\"studentId\":\"" + JsonEscape(id) + "\"," +
+                "\"fullName\":\"" + JsonEscape(name) + "\"," +
+                "\"email\":\"" + JsonEscape(email) + "\"," +
+                "\"mobile\":\"" + JsonEscape(mobile) + "\"," +
+                "\"password\":\"123456\"" +
+                "}";
+            return await PostJson("/students/sync", json);
         }
 
         public async Task<string> IssueBook(int bookId, string studentId)
         {
-            var json = $@"{{
-                ""bookId"": {bookId},
-                ""studentId"": ""{studentId}""
-            }}";
+            string json = "{\"bookId\":" + bookId.ToString(CultureInfo.InvariantCulture) + ",\"studentId\":\"" + JsonEscape(studentId) + "\"}";
+            return await PostJson("/issues", json);
+        }
+        public async Task<string> IssueBookByName(string bookName, string studentId)
+        {
+            string json = "{\"bookName\":\"" + JsonEscape(bookName) + "\",\"studentId\":\"" + JsonEscape(studentId) + "\"}";
+            return await PostJson("/issues/by-book-name", json);
+        }
 
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
+        public async Task<string> ReturnBook(int bookId, string studentId, decimal fine)
+        {
+            string json = "{\"bookId\":" + bookId.ToString(CultureInfo.InvariantCulture) + ",\"studentId\":\"" + JsonEscape(studentId) + "\",\"fine\":" + fine.ToString(CultureInfo.InvariantCulture) + "}";
+            return await PostJson("/returns", json);
+        }
 
-            var response = await client.PostAsync(baseUrl + "/issues", content);
+        public async Task<string> ReturnBookByName(string bookName, string studentId, decimal fine)
+        {
+            string json = "{\"bookName\":\"" + JsonEscape(bookName) + "\",\"studentId\":\"" + JsonEscape(studentId) + "\",\"fine\":" + fine.ToString(CultureInfo.InvariantCulture) + "}";
+            return await PostJson("/returns/by-book-name", json);
+        }
 
-            return await response.Content.ReadAsStringAsync();
+        public async Task<string> GetBooks()
+        {
+            HttpResponseMessage response = await client.GetAsync(baseUrl + "/books");
+            string body = await response.Content.ReadAsStringAsync();
+            if (!response.IsSuccessStatusCode) throw new ApplicationException("Library API error: " + body);
+            return body;
+        }
+
+        private async Task<string> PostJson(string route, string json)
+        {
+            using (StringContent content = new StringContent(json, Encoding.UTF8, "application/json"))
+            {
+                HttpResponseMessage response = await client.PostAsync(baseUrl + route, content);
+                string body = await response.Content.ReadAsStringAsync();
+                if (!response.IsSuccessStatusCode) throw new ApplicationException("Library API error: " + body);
+                return body;
+            }
+        }
+
+        private static string JsonEscape(string value)
+        {
+            if (value == null) return string.Empty;
+            return value.Replace("\\", "\\\\").Replace("\"", "\\\"").Replace("\r", "\\r").Replace("\n", "\\n");
         }
     }
 }
