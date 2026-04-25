@@ -31,13 +31,13 @@ namespace SMS
                 WControls.DBConOpen();
                 SqlDataAdapter adapter = new SqlDataAdapter(
                     "SELECT Student_id, Card_no, [Book Name], Issue_date, Submit_date, Total_fine, Report " +
-                    "FROM Library WHERE Submit_date IS NULL OR Submit_date = ''", 
+                    "FROM Library WHERE Submit_date IS NULL OR Submit_date = ''",
                     WControls.connection);
                 DataTable table = new DataTable();
                 adapter.Fill(table);
-                
+
                 dataGridView1.DataSource = table;
-                
+
                 // Set column headers
                 if (dataGridView1.Columns.Count > 0)
                 {
@@ -72,13 +72,13 @@ namespace SMS
                 SqlDataAdapter adapter = new SqlDataAdapter(
                     "SELECT Student_id, Card_no, [Book Name], Issue_date, Submit_date, Total_fine, Report " +
                     "FROM Library WHERE (Submit_date IS NULL OR Submit_date = '') AND " +
-                    "(Student_id LIKE '%" + Search_txb.Text + "%' OR [Book Name] LIKE '%" + Search_txb.Text + "%')", 
+                    "(Student_id LIKE '%" + Search_txb.Text + "%' OR [Book Name] LIKE '%" + Search_txb.Text + "%')",
                     WControls.connection);
                 DataTable table = new DataTable();
                 adapter.Fill(table);
-                
+
                 dataGridView1.DataSource = table;
-                
+
                 // Set column headers
                 if (dataGridView1.Columns.Count > 0)
                 {
@@ -133,13 +133,13 @@ namespace SMS
                     {
                         decimal lateFee = daysOverdue * 5; // $5 per day late fee
                         Total_fine_tbx.Text = lateFee.ToString("F2");
-                        
+
                         DialogResult result = MessageBox.Show(
                             $"This book is {daysOverdue} days overdue. Late fee: ${lateFee:F2}\n\nDo you want to proceed with the return?",
                             "Late Return",
                             MessageBoxButtons.YesNo,
                             MessageBoxIcon.Warning);
-                        
+
                         if (result == DialogResult.No)
                         {
                             return;
@@ -177,12 +177,17 @@ namespace SMS
 
                 if (rowsAffected > 0)
                 {
+                    decimal fineAmount = 0;
+                    decimal.TryParse(fine, out fineAmount);
+                    LibraryApiClient api = new LibraryApiClient();
+                    await api.ReturnBookByName(bookName, studentId, fineAmount);
+
                     WControls.ShowToasterMsg("SUCCESS", "Book Returned", "Book has been successfully returned.");
-                    
+
                     // Clear form
                     Total_fine_tbx.Clear();
                     Report_tbx.Clear();
-                    
+
                     // Refresh the list
                     LoadIssuedBooks();
                 }
