@@ -158,7 +158,7 @@ namespace SMS
             }
         }
 
-        private void Update_btn_Click(object sender, EventArgs e)
+        private async void Update_btn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(Student_id_tbx.Text))
             {

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Configuration;
+using System.Globalization;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +10,7 @@ namespace SMS
     public class LibraryApiClient
     {
         private readonly HttpClient client = new HttpClient();
-        private readonly string baseUrl
+        private readonly string baseUrl;
 
         public LibraryApiClient()
         {

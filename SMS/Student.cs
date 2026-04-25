@@ -19,8 +19,10 @@ namespace SMS
         // Making the Form Movable -----------------------------//
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
+
         [DllImportAttribute("user32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
         private void Student_MouseDown(object sender, MouseEventArgs e)
@@ -47,7 +49,11 @@ namespace SMS
         protected void insert()
         {
             UpdateEventArgs args = new UpdateEventArgs();
-            UpdateEventHandler.Invoke(this, args);
+
+            if (UpdateEventHandler != null)
+            {
+                UpdateEventHandler.Invoke(this, args);
+            }
         }
         private void Close_btn_Click(object sender, EventArgs e)
         {
@@ -76,17 +82,17 @@ namespace SMS
         private void Browse_btn_Click(object sender, EventArgs e)
         {
             OFD_controler.Filter = "png files(*.png)|*.png|jpg files(*.jpg)|*.jpg|All files(*.*)|*.*";
+
             if (OFD_controler.ShowDialog() == DialogResult.OK)
             {
                 query = OFD_controler.FileName.ToString();
                 Photo_pb.ImageLocation = query;
             }
         }
-        private void Save_btn_Click(object sender, EventArgs e)
+        private async void Save_btn_Click(object sender, EventArgs e)
         {
             try
             {
-
                 string[] inputs = new string[]
                 {
                     Student_id_tbx.Text,
@@ -105,37 +111,64 @@ namespace SMS
                 if (inputs.Any(input => string.IsNullOrWhiteSpace(input)))
                 {
                     WControls.ShowToasterMsg("ACTION NEEDED", "Missing Data", "Fill all Details Carefully!!");
+                    return;
                 }
-                else
+
+                if (string.IsNullOrWhiteSpace(query) || !File.Exists(query))
                 {
-                    WControls.DBConOpen();
-                    Sql_Query = "Insert into Student values(@S_ID, @S_Name, @F_Name, @Address, @Phone, @Voter, @Class, @Roll, @Sec, @Library, @Bus, @Photo)";
-
-                    byte[] image = null;
-                    FileStream stream = new FileStream(query, FileMode.Open, FileAccess.Read);
-                    BinaryReader brs = new BinaryReader(stream);
-                    image = brs.ReadBytes((int)stream.Length);
-
-
-                    cmd = new SqlCommand(Sql_Query, WControls.connection);
-                    cmd.Parameters.AddWithValue("@S_ID", Student_id_tbx.Text);
-                    cmd.Parameters.AddWithValue("@S_Name", StudentName_tbx.Text);
-                    cmd.Parameters.AddWithValue("@F_Name", FatherName_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Address", Add_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Phone", Phone_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Voter", Voter_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Class", Class_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Roll", Roll_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Sec", Sec_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Library", Library_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Bus", Bus_tbx.Text);
-                    cmd.Parameters.AddWithValue("@Photo", image);
-                    cmd.ExecuteNonQuery();
-                    ClearInputFields();
-                    WControls.ShowToasterMsg("SUCCESS", "Saved Successfully ", "Data Stored in Database");
-                    WControls.DBConClose();
-                    insert();
+                    WControls.ShowToasterMsg("ACTION NEEDED", "Missing Photo", "Please select a student photo.");
+                    return;
                 }
+
+                WControls.DBConOpen();
+
+                Sql_Query = "Insert into Student values(@S_ID, @S_Name, @F_Name, @Address, @Phone, @Voter, @Class, @Roll, @Sec, @Library, @Bus, @Photo)";
+
+                byte[] image = null;
+
+                using (FileStream stream = new FileStream(query, FileMode.Open, FileAccess.Read))
+                using (BinaryReader brs = new BinaryReader(stream))
+                {
+                    image = brs.ReadBytes((int)stream.Length);
+                }
+
+                cmd = new SqlCommand(Sql_Query, WControls.connection);
+
+                cmd.Parameters.AddWithValue("@S_ID", Student_id_tbx.Text);
+                cmd.Parameters.AddWithValue("@S_Name", StudentName_tbx.Text);
+                cmd.Parameters.AddWithValue("@F_Name", FatherName_tbx.Text);
+                cmd.Parameters.AddWithValue("@Address", Add_tbx.Text);
+                cmd.Parameters.AddWithValue("@Phone", Phone_tbx.Text);
+                cmd.Parameters.AddWithValue("@Voter", Voter_tbx.Text);
+                cmd.Parameters.AddWithValue("@Class", Class_tbx.Text);
+                cmd.Parameters.AddWithValue("@Roll", Roll_tbx.Text);
+                cmd.Parameters.AddWithValue("@Sec", Sec_tbx.Text);
+                cmd.Parameters.AddWithValue("@Library", Library_tbx.Text);
+                cmd.Parameters.AddWithValue("@Bus", Bus_tbx.Text);
+                cmd.Parameters.AddWithValue("@Photo", image);
+
+                cmd.ExecuteNonQuery();
+
+                LibraryApiClient api = new LibraryApiClient();
+
+                await api.SyncStudent(
+                    Student_id_tbx.Text,
+                    StudentName_tbx.Text,
+                    "",
+                    Phone_tbx.Text
+                );
+
+                ClearInputFields();
+
+                WControls.ShowToasterMsg(
+                    "SUCCESS",
+                    "Saved Successfully",
+                    "Data Stored in Student DB and synced to Library"
+                );
+
+                WControls.DBConClose();
+
+                insert();
             }
             catch (Exception ex)
             {
@@ -145,6 +178,7 @@ namespace SMS
             {
                 WControls.DBConClose();
             }
+
         }
         private void ClearInputFields()
         {
@@ -160,6 +194,7 @@ namespace SMS
             Library_tbx.Text = string.Empty;
             Bus_tbx.Text = string.Empty;
             Photo_pb.Image = null;
+            query = null;
         }
     }
 }
