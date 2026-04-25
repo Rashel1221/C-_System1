@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Configuration;
 using System.Globalization;
 using System.Net.Http;
@@ -63,6 +64,25 @@ namespace SMS
             string body = await response.Content.ReadAsStringAsync();
             if (!response.IsSuccessStatusCode) throw new ApplicationException("Library API error: " + body);
             return body;
+        }
+
+        public async Task<List<IssuedBookDto>> GetIssuedBooks()
+        {
+            string url = baseUrl + "/issued-books";
+            string json = await client.GetStringAsync(url);
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<List<IssuedBookDto>>(json);
+        }
+
+        public class IssuedBookDto
+        {
+            public int id { get; set; }
+            public int BookId { get; set; }
+            public string StudentID { get; set; }
+            public string IssuesDate { get; set; }
+            public int? RetrunStatus { get; set; }
+            public string student_name { get; set; }
+            public string book_name { get; set; }
+            public string isbn { get; set; }
         }
 
         private async Task<string> PostJson(string route, string json)

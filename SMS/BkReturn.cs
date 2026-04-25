@@ -25,78 +25,84 @@ namespace SMS
             LoadIssuedBooks();
         }
 
-        private void LoadIssuedBooks()
+        private async void LoadIssuedBooks()
         {
             try
             {
-                WControls.DBConOpen();
-                SqlDataAdapter adapter = new SqlDataAdapter(
-                    "SELECT Student_id, Card_no, [Book Name], Issue_date, Submit_date, Total_fine, Report " +
-                    "FROM Library WHERE Submit_date IS NULL OR Submit_date = ''",
-                    WControls.connection);
+                LibraryApiClient api = new LibraryApiClient();
+                var books = await api.GetIssuedBooks();
+
                 DataTable table = new DataTable();
-                adapter.Fill(table);
+                table.Columns.Add("Student_id");
+                table.Columns.Add("Card_no");
+                table.Columns.Add("Book Name");
+                table.Columns.Add("Issue_date");
+                table.Columns.Add("Submit_date");
+                table.Columns.Add("Total_fine");
+                table.Columns.Add("Report");
 
-                dataGridView1.DataSource = table;
-
-                // Set column headers
-                if (dataGridView1.Columns.Count > 0)
+                foreach (var book in books)
                 {
-                    dataGridView1.Columns[0].HeaderText = "Student ID";
-                    dataGridView1.Columns[1].HeaderText = "Card No";
-                    dataGridView1.Columns[2].HeaderText = "Book Name";
-                    dataGridView1.Columns[3].HeaderText = "Issue Date";
-                    dataGridView1.Columns[4].HeaderText = "Return Date";
-                    dataGridView1.Columns[5].HeaderText = "Fine";
-                    dataGridView1.Columns[6].HeaderText = "Report";
+                    table.Rows.Add(
+                        book.StudentID,
+                        book.isbn,
+                        book.book_name,
+                        book.IssuesDate,
+                        "",
+                        "0.00",
+                        ""
+                    );
                 }
 
-                WControls.DBConClose();
+                dataGridView1.DataSource = table;
             }
             catch (Exception ex)
             {
-                WControls.ShowToasterMsg("ERROR", "Error Loading Data", ex.Message.ToString());
+                WControls.ShowToasterMsg("ERROR", "API Error", ex.Message);
             }
         }
 
-        private void Search_btn_Click(object sender, EventArgs e)
+        private async void Search_btn_Click(object sender, EventArgs e)
         {
             try
             {
-                if (string.IsNullOrEmpty(Search_txb.Text))
-                {
-                    LoadIssuedBooks();
-                    return;
-                }
+                LibraryApiClient api = new LibraryApiClient();
+                var books = await api.GetIssuedBooks();
 
-                WControls.DBConOpen();
-                SqlDataAdapter adapter = new SqlDataAdapter(
-                    "SELECT Student_id, Card_no, [Book Name], Issue_date, Submit_date, Total_fine, Report " +
-                    "FROM Library WHERE (Submit_date IS NULL OR Submit_date = '') AND " +
-                    "(Student_id LIKE '%" + Search_txb.Text + "%' OR [Book Name] LIKE '%" + Search_txb.Text + "%')",
-                    WControls.connection);
+                string keyword = Search_txb.Text.Trim().ToLower();
+
                 DataTable table = new DataTable();
-                adapter.Fill(table);
+                table.Columns.Add("Student_id");
+                table.Columns.Add("Card_no");
+                table.Columns.Add("Book Name");
+                table.Columns.Add("Issue_date");
+                table.Columns.Add("Submit_date");
+                table.Columns.Add("Total_fine");
+                table.Columns.Add("Report");
+
+                foreach (var book in books)
+                {
+                    if (string.IsNullOrWhiteSpace(keyword) ||
+                        book.StudentID.ToLower().Contains(keyword) ||
+                        book.book_name.ToLower().Contains(keyword))
+                    {
+                        table.Rows.Add(
+                            book.StudentID,
+                            book.isbn,
+                            book.book_name,
+                            book.IssuesDate,
+                            "",
+                            "0.00",
+                            ""
+                        );
+                    }
+                }
 
                 dataGridView1.DataSource = table;
-
-                // Set column headers
-                if (dataGridView1.Columns.Count > 0)
-                {
-                    dataGridView1.Columns[0].HeaderText = "Student ID";
-                    dataGridView1.Columns[1].HeaderText = "Card No";
-                    dataGridView1.Columns[2].HeaderText = "Book Name";
-                    dataGridView1.Columns[3].HeaderText = "Issue Date";
-                    dataGridView1.Columns[4].HeaderText = "Return Date";
-                    dataGridView1.Columns[5].HeaderText = "Fine";
-                    dataGridView1.Columns[6].HeaderText = "Report";
-                }
-
-                WControls.DBConClose();
             }
             catch (Exception ex)
             {
-                WControls.ShowToasterMsg("ERROR", "Error Searching", ex.Message.ToString());
+                WControls.ShowToasterMsg("ERROR", "API Error", ex.Message);
             }
         }
 

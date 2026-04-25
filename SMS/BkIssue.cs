@@ -40,7 +40,7 @@ namespace SMS
             dataGridView1.ReadOnly = true;
         }
 
-        private void Search_btn_Click(object sender, EventArgs e)
+        private async void Search_btn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(Search_txb.Text))
             {
@@ -69,6 +69,19 @@ namespace SMS
 
                     BookNames_tbx.Clear();
                     selectedBooks.Clear();
+
+                    LibraryApiClient api = new LibraryApiClient();
+                    var books = await api.GetIssuedBooks();
+
+                    foreach (var book in books)
+                    {
+                        if (book.StudentID == Student_id_tbx.Text.Trim())
+                        {
+                            selectedBooks.Add(book.book_name);
+                        }
+                    }
+
+                    BookNames_tbx.Text = string.Join(Environment.NewLine, selectedBooks);
 
                     WControls.ShowToasterMsg("SUCCESS", "Student Found", "Student loaded successfully!");
                 }
@@ -225,35 +238,29 @@ namespace SMS
             }
         }
 
-        private void LoadIssuedBooks()
+        private async void LoadIssuedBooks()
         {
             try
             {
-                WControls.DBConOpen();
-                SqlDataAdapter adapter = new SqlDataAdapter(
-                    "SELECT Student_id, Student_Name, Book_Name, Issue_Date, Library_Card_No FROM BookIssue WHERE Status='Issued' ORDER BY Issue_Date DESC",
-                    WControls.connection);
+                LibraryApiClient api = new LibraryApiClient();
+                var books = await api.GetIssuedBooks();
 
-                DataTable table = new DataTable();
-                adapter.Fill(table);
                 dataGridView1.Rows.Clear();
 
-                foreach (DataRow row in table.Rows)
+                foreach (var book in books)
                 {
                     dataGridView1.Rows.Add(
-                        row["Student_id"],
-                        row["Student_Name"],
-                        row["Book_Name"],
-                        Convert.ToDateTime(row["Issue_Date"]).ToString("dd-MM-yyyy"),
-                        row["Library_Card_No"]
+                        book.StudentID,
+                        book.student_name,
+                        book.book_name,
+                        Convert.ToDateTime(book.IssuesDate).ToString("dd-MM-yyyy"),
+                        book.isbn
                     );
                 }
-
-                WControls.DBConClose();
             }
-            catch
+            catch (Exception ex)
             {
-                WControls.DBConClose();
+                WControls.ShowToasterMsg("ERROR", "API Error", ex.Message);
             }
         }
 
