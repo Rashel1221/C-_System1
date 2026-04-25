@@ -197,7 +197,12 @@ namespace SMS
                     cmd.Parameters.AddWithValue("@LCNo", Library_tbx.Text.Trim());
                     cmd.Parameters.AddWithValue("@Section", Sec_tbx.Text.Trim());
 
-                    if (cmd.ExecuteNonQuery() > 0) successCount++;
+                    if (cmd.ExecuteNonQuery() > 0)
+                    {
+                        successCount++;
+                        LibraryApiClient api = new LibraryApiClient();
+                        await api.IssueBookByName(bookName, Student_id_tbx.Text.Trim());
+                    }
                 }
 
                 WControls.DBConClose();
